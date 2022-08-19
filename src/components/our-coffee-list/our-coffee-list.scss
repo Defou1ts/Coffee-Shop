@@ -1,0 +1,15 @@
+.our-coffee-list {
+   margin: 61px 0px 30px 0px;
+   &__wrapper {
+      max-width: 800px;
+      margin: 0px auto;
+   }
+
+   &__row {
+      width: 100%;
+      flex-wrap: wrap;
+      display: flex;
+
+   }
+}
+

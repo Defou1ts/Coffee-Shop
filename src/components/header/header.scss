@@ -1,0 +1,40 @@
+.header {
+   width: 355px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: absolute;
+   left: 150px;
+   top: 50px;
+   & img {
+      position: relative;
+      bottom: 15px;
+      left: 30px;
+   }
+   &__link {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 17px;
+      color: #FFFFFF;
+      transition: 0.2s ease;
+      &:hover {
+         color: red;
+         transition: 0.2s ease;
+      }
+   }
+}
+
+@media (max-width:1200px) {
+   .header {
+      left: 40px;
+      top: 20px;
+   }
+}
+
+@media (max-width:600px) {
+   .header {
+      left: -10px;
+      top: 16px;
+   }
+}
+
